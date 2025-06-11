@@ -4,8 +4,8 @@ setup(
     name="gpu-compute-manager",
     version="0.1.0",
     description="Lightweight GPU device manager with fallback to CPU.",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="DYC",
+    author_email="dyc1go@outlook.com",
     packages=find_packages(),
     py_modules=["compute_manager"],
     classifiers=[
