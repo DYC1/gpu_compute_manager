@@ -2,7 +2,8 @@ import os
 import subprocess
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-
+os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
+os.environ["XLA_PYTHON_CLIENT_PREALLOCATE"] = "false"
 class ComputeManager:
     def __init__(self):
         """
